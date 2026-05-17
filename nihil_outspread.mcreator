@@ -9,7 +9,7 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/luzak/wtn/NoLMod.java",
+      "src/main/java/net/luzak/wtn/NihilOutspreadMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta"
     ]
@@ -19,11 +19,12 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "no_l",
+    "modid": "nihil_outspread",
     "modName": "Nihil Outspread",
     "version": "0.S.1",
     "description": "Explore the vast dimension of the VOID, find many new biomes with a new progression and lore",
     "author": "LuzakIsHere",
+    "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,
     "requiredMods": [],
@@ -31,6 +32,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.luzak.wtn"
   },
   "mcreatorVersion": 202500345720

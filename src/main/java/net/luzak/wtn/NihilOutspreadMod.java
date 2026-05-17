@@ -25,12 +25,12 @@ import java.util.HashMap;
 import java.util.Collection;
 import java.util.ArrayList;
 
-@Mod("no_l")
-public class NoLMod {
-	public static final Logger LOGGER = LogManager.getLogger(NoLMod.class);
-	public static final String MODID = "no_l";
+@Mod("nihil_outspread")
+public class NihilOutspreadMod {
+	public static final Logger LOGGER = LogManager.getLogger(NihilOutspreadMod.class);
+	public static final String MODID = "nihil_outspread";
 
-	public NoLMod(IEventBus modEventBus) {
+	public NihilOutspreadMod(IEventBus modEventBus) {
 		// Start of user code block mod constructor
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
