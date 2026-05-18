@@ -153,26 +153,24 @@ public class TwigFlowerBlock extends Block {
 		BlockState state,
 		Player player
 	) {
+		PlantPart part = state.getValue(PART);
 
 		if (!level.isClientSide) {
 				if (part == PlantPart.TOP) {
 					level.destroyBlock(pos.below(), false);
 					level.destroyBlock(pos.below(2), false);
 
-					return super.playerWillDestroy(level, pos, state, player);
-
 				} else if (part == PlantPart.MIDDLE) {
 					level.destroyBlock(pos.above(), false);
 					level.destroyBlock(pos.below(), false);	
 
-					return super.playerWillDestroy(level, pos, state, player);
 				} else if (part == PlantPart.BOTTOM) {
 					level.destroyBlock(pos.above(), false);
 					level.destroyBlock(pos.above(2), false);
 
-					return super.playerWillDestroy(level, pos, state, player);
 			}
 		}
+		return super.playerWillDestroy(level, pos, state, player);
 	}
 
 	@Override
