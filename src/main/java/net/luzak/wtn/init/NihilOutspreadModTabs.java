@@ -28,6 +28,7 @@ public class NihilOutspreadModTabs {
 				tabData.accept(NihilOutspreadModBlocks.VOID_PEBBLES.get().asItem());
 				tabData.accept(NihilOutspreadModBlocks.NIHIL_HERB.get().asItem());
 				tabData.accept(NihilOutspreadModBlocks.NIHIL_FERN.get().asItem());
+				tabData.accept(NihilOutspreadModBlocks.CHECKER_GRASS_BLOCK.get().asItem());
 			}).build());
 
 	@SubscribeEvent

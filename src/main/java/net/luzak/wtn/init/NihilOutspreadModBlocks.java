@@ -21,6 +21,7 @@ public class NihilOutspreadModBlocks {
 	public static final DeferredBlock<Block> NIHIL_FERN;
 	public static final DeferredBlock<Block> NIHIL_BUSH;
 	public static final DeferredBlock<Block> TWIG_FLOWER;
+	public static final DeferredBlock<Block> CHECKER_GRASS_BLOCK;
 	static {
 		NIHIL_GRASS_BLOCK = REGISTRY.register("nihil_grass_block", NihilGrassBlockBlock::new);
 		VOID_DIRT = REGISTRY.register("void_dirt", VoidDirtBlock::new);
@@ -30,6 +31,7 @@ public class NihilOutspreadModBlocks {
 		NIHIL_FERN = REGISTRY.register("nihil_fern", NihilFernBlock::new);
 		NIHIL_BUSH = REGISTRY.register("nihil_bush", NihilBushBlock::new);
 		TWIG_FLOWER = REGISTRY.register("twig_flower", TwigFlowerBlock::new);
+		CHECKER_GRASS_BLOCK = REGISTRY.register("checker_grass_block", CheckerGrassBlockBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

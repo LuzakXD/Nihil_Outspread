@@ -24,6 +24,7 @@ public class NihilOutspreadModItems {
 	public static final DeferredItem<Item> NIHIL_FERN;
 	public static final DeferredItem<Item> NIHIL_BUSH;
 	public static final DeferredItem<Item> TWIG_FLOWER;
+	public static final DeferredItem<Item> CHECKER_GRASS_BLOCK;
 	static {
 		NIHIL_GRASS_BLOCK = block(NihilOutspreadModBlocks.NIHIL_GRASS_BLOCK);
 		VOID_DIRT = block(NihilOutspreadModBlocks.VOID_DIRT);
@@ -33,6 +34,7 @@ public class NihilOutspreadModItems {
 		NIHIL_FERN = block(NihilOutspreadModBlocks.NIHIL_FERN);
 		NIHIL_BUSH = block(NihilOutspreadModBlocks.NIHIL_BUSH);
 		TWIG_FLOWER = doubleBlock(NihilOutspreadModBlocks.TWIG_FLOWER);
+		CHECKER_GRASS_BLOCK = block(NihilOutspreadModBlocks.CHECKER_GRASS_BLOCK);
 	}
 
 	// Start of user code block custom items

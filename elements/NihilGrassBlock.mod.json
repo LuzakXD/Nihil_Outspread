@@ -56,9 +56,9 @@
         "value": "CUSTOM:VoidNaturals"
       }
     ],
-    "destroyTool": "Not specified",
+    "destroyTool": "shovel",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:VoidDirt"
     },
     "dropAmount": 1,
     "xpAmountMin": 0,

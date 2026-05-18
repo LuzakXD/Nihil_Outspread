@@ -109,7 +109,7 @@
         "value": "TAG:nihil_outspread:nihil_plant_on"
       }
     ],
-    "isBonemealable": true,
+    "isBonemealable": false,
     "frequencyOnChunks": 5,
     "generateFeature": false,
     "restrictionBiomes": [],

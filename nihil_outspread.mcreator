@@ -150,6 +150,72 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "CheckerGrassBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "checker_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nihil_outspread/models/item/checker_grass_block.json",
+          "src/main/resources/assets/nihil_outspread/models/block/checker_grass_block.json",
+          "src/main/java/net/luzak/wtn/block/CheckerGrassBlockBlock.java",
+          "src/main/resources/assets/nihil_outspread/blockstates/checker_grass_block.json",
+          "src/main/resources/data/nihil_outspread/loot_table/blocks/checker_grass_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CheckerPatch",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "checker_patch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nihil_outspread/worldgen/configured_feature/checker_patch.json"
+        ]
+      }
+    },
+    {
+      "name": "CheckerGrassFeature",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "checker_grass_feature",
+      "metadata": {
+        "files": [
+          "src/main/java/net/luzak/wtn/CheckerGrassFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "NihilOutspreadModFeatures",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nihil_outspread_mod_features",
+      "metadata": {
+        "files": [
+          "src/main/java/net/luzak/wtn/NihilOutspreadModFeatures.java"
+        ]
+      }
+    },
+    {
+      "name": "Checker",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "checker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nihil_outspread/worldgen/configured_feature/checker.json",
+          "src/main/resources/data/nihil_outspread/neoforge/biome_modifier/checker_biome_modifier.json",
+          "src/main/resources/data/nihil_outspread/worldgen/placed_feature/checker.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -175,7 +241,17 @@
     ],
     "BLOCKS:nihil_outspread:nihil_plant_on": [
       "CUSTOM:NihilGrassBlock",
-      "CUSTOM:VoidDirt"
+      "CUSTOM:VoidDirt",
+      "CUSTOM:CheckerGrassBlock"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:CheckerGrassBlock",
+      "~CUSTOM:VoidDirt",
+      "~CUSTOM:NihilGrassBlock"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:VoidPebbles",
+      "~CUSTOM:VoidStone"
     ]
   },
   "tab_element_order": {},
@@ -189,7 +265,8 @@
       "block.nihil_outspread.nihil_fern": "Nihil Herb",
       "block.nihil_outspread.nihil_bush": "Nihil Short Grass",
       "block.nihil_outspread.twig_flower": "Twig Flower",
-      "item_group.nihil_outspread.void_naturals": "Void Naturals"
+      "item_group.nihil_outspread.void_naturals": "Void Naturals",
+      "block.nihil_outspread.checker_grass_block": "Checker Grass Block"
     }
   },
   "metadata": {
@@ -197,6 +274,7 @@
       "src/main/java/net/luzak/wtn/init/NihilOutspreadModBlocks.java",
       "src/main/java/net/luzak/wtn/init/NihilOutspreadModItems.java",
       "src/main/resources/assets/nihil_outspread/sounds.json",
+      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/luzak/wtn/NihilOutspreadMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/luzak/wtn/init/NihilOutspreadModSounds.java",

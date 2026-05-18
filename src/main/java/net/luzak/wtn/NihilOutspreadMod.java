@@ -22,6 +22,7 @@ import net.luzak.wtn.init.NihilOutspreadModTabs;
 import net.luzak.wtn.init.NihilOutspreadModSounds;
 import net.luzak.wtn.init.NihilOutspreadModItems;
 import net.luzak.wtn.init.NihilOutspreadModBlocks;
+import net.luzak.wtn.extras.NihilOutspreadModFeatures;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -45,6 +46,7 @@ public class NihilOutspreadMod {
 		NihilOutspreadModItems.REGISTRY.register(modEventBus);
 		NihilOutspreadModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
+		NihilOutspreadModFeatures.REGISTRY.register(modEventBus);
 		// End of user code block mod init
 	}
 

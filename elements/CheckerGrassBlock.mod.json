@@ -2,14 +2,14 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "void_stone",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "void_dirt",
+    "textureTop": "cheker_grass_block_top",
+    "textureLeft": "checker_grass_block_side",
+    "textureFront": "checker_grass_block_side",
+    "textureRight": "checker_grass_block_side",
+    "textureBack": "checker_grass_block_side",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -39,12 +39,12 @@
       }
     ],
     "customProperties": [],
-    "name": "Void Stone",
+    "name": "Checker Grass Block",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 3.0,
-    "resistance": 10.0,
+    "hardness": 2.0,
+    "resistance": 1.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
@@ -56,9 +56,9 @@
         "value": "CUSTOM:VoidNaturals"
       }
     ],
-    "destroyTool": "pickaxe",
+    "destroyTool": "shovel",
     "customDrop": {
-      "value": "CUSTOM:VoidPebbles"
+      "value": "CUSTOM:VoidDirt"
     },
     "dropAmount": 1,
     "xpAmountMin": 0,
@@ -66,18 +66,18 @@
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "tickRate": 0,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "BLACK",
-    "noteBlockInstrument": "basedrum",
+    "colorOnMap": "GRAY",
+    "noteBlockInstrument": "snare",
     "creativePickItem": {
       "value": ""
     },
@@ -97,10 +97,10 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "WET_GRASS"
     },
     "breakSound": {
-      "value": ""
+      "value": "CUSTOM:block.nihilgrass.footstep"
     },
     "fallSound": {
       "value": ""

@@ -56,7 +56,7 @@
         "value": "CUSTOM:VoidNaturals"
       }
     ],
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
