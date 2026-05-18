@@ -116,7 +116,7 @@
       "name": "TwigFlower",
       "type": "plant",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "twig_flower",
       "metadata": {
         "files": [
@@ -126,6 +126,18 @@
           "src/main/java/net/luzak/wtn/block/TwigFlowerBlock.java",
           "src/main/resources/assets/nihil_outspread/models/item/twig_flower.json",
           "src/main/resources/data/nihil_outspread/loot_table/blocks/twig_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "PlantPart",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "plant_part",
+      "metadata": {
+        "files": [
+          "src/main/java/net/luzak/wtn/PlantPart.java"
         ]
       }
     }

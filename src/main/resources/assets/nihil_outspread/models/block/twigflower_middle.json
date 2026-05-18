@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "nihil_outspread:block/twigflower_middle"
+  },
+  "render_type": "cutout"
+}

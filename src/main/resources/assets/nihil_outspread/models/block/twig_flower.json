@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "nihil_outspread:block/twigflower_front",
-    "particle": "nihil_outspread:block/twigflower_front"
-  },
-  "render_type": "cutout"
-}

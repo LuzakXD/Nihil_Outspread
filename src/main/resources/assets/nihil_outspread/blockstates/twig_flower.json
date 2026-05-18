@@ -1,10 +1,13 @@
 {
   "variants": {
-    "half=upper": {
-      "model": "nihil_outspread:block/twig_flower"
+    "part=top": {
+      "model": "nihil_outspread:block/twigflower_top"
     },
-    "half=lower": {
-      "model": "nihil_outspread:block/twig_flower_bottom"
+    "part=middle": {
+      "model": "nihil_outspread:block/twigflower_middle"
+    },
+    "part=bottom": {
+      "model": "nihil_outspread:block/twigflower_bottom"
     }
   }
 }
