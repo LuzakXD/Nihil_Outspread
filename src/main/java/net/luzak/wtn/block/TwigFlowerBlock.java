@@ -28,6 +28,9 @@ import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BlockTags;
+
 public class TwigFlowerBlock extends Block {
 
 	public static final EnumProperty<PlantPart> PART =
@@ -103,9 +106,15 @@ public class TwigFlowerBlock extends Block {
 		LevelReader world,
 		BlockPos pos
 	) {
-
-		return state.is(BlockTags.DIRT)
-			|| state.getBlock() == Blocks.FARMLAND;
+	
+		return state.is(
+			BlockTags.create(
+				ResourceLocation.fromNamespaceAndPath(
+					"nihil_outspread",
+					"nihil_plant_on"
+				)
+			)
+		);
 	}
 
 	@Override

@@ -140,6 +140,16 @@
           "src/main/java/net/luzak/wtn/PlantPart.java"
         ]
       }
+    },
+    {
+      "name": "VoidNaturals",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_naturals",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -162,6 +172,10 @@
       "~CUSTOM:NihilBush",
       "~CUSTOM:NihilFern",
       "~CUSTOM:NihilHerb"
+    ],
+    "BLOCKS:nihil_outspread:nihil_plant_on": [
+      "CUSTOM:NihilGrassBlock",
+      "CUSTOM:VoidDirt"
     ]
   },
   "tab_element_order": {},
@@ -174,7 +188,8 @@
       "block.nihil_outspread.nihil_herb": "Nihil Small Herb",
       "block.nihil_outspread.nihil_fern": "Nihil Herb",
       "block.nihil_outspread.nihil_bush": "Nihil Short Grass",
-      "block.nihil_outspread.twig_flower": "Twig Flower"
+      "block.nihil_outspread.twig_flower": "Twig Flower",
+      "item_group.nihil_outspread.void_naturals": "Void Naturals"
     }
   },
   "metadata": {

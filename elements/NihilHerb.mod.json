@@ -47,7 +47,7 @@
     },
     "creativeTabs": [
       {
-        "value": "DECORATIONS"
+        "value": "CUSTOM:VoidNaturals"
       }
     ],
     "hardness": 0.0,
@@ -106,10 +106,7 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [
       {
-        "value": "CUSTOM:NihilGrassBlock"
-      },
-      {
-        "value": "CUSTOM:VoidDirt"
+        "value": "TAG:nihil_outspread:nihil_plant_on"
       }
     ],
     "isBonemealable": true,

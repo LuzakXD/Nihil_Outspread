@@ -12,11 +12,11 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.util.RandomSource;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
-
-import net.luzak.wtn.init.NihilOutspreadModBlocks;
 
 public class NihilHerbBlock extends FlowerBlock implements BonemealableBlock {
 	public NihilHerbBlock() {
@@ -36,7 +36,7 @@ public class NihilHerbBlock extends FlowerBlock implements BonemealableBlock {
 
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(NihilOutspreadModBlocks.NIHIL_GRASS_BLOCK.get()) || groundState.is(NihilOutspreadModBlocks.VOID_DIRT.get());
+		return groundState.is(BlockTags.create(ResourceLocation.parse("nihil_outspread:nihil_plant_on")));
 	}
 
 	@Override
