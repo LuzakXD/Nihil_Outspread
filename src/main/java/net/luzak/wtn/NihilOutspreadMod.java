@@ -18,6 +18,11 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.luzak.wtn.init.NihilOutspreadModTabs;
+import net.luzak.wtn.init.NihilOutspreadModSounds;
+import net.luzak.wtn.init.NihilOutspreadModItems;
+import net.luzak.wtn.init.NihilOutspreadModBlocks;
+
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
 import java.util.List;
@@ -35,6 +40,10 @@ public class NihilOutspreadMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		NihilOutspreadModSounds.REGISTRY.register(modEventBus);
+		NihilOutspreadModBlocks.REGISTRY.register(modEventBus);
+		NihilOutspreadModItems.REGISTRY.register(modEventBus);
+		NihilOutspreadModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

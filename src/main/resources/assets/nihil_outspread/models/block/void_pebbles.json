@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "nihil_outspread:block/void_pebbles",
+    "particle": "nihil_outspread:block/void_pebbles"
+  },
+  "render_type": "solid"
+}

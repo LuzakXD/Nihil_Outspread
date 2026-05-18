@@ -1,1 +1,10 @@
-{}
+{
+  "block.nihil_outspread.nihil_grass_block": "Nihil Grass Block",
+  "block.nihil_outspread.void_dirt": "Void Dirt",
+  "block.nihil_outspread.void_stone": "Void Stone",
+  "block.nihil_outspread.void_pebbles": "Void Pebbles",
+  "block.nihil_outspread.nihil_herb": "Nihil Small Herb",
+  "block.nihil_outspread.nihil_fern": "Nihil Herb",
+  "block.nihil_outspread.nihil_bush": "Nihil Short Grass",
+  "block.nihil_outspread.twig_flower": "Twig Flower"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nihil_outspread:block/void_dirt",
+    "up": "nihil_outspread:block/nihil_grass_block_top",
+    "north": "nihil_outspread:block/nihil_grass_bock_side",
+    "east": "nihil_outspread:block/nihil_grass_bock_side",
+    "south": "nihil_outspread:block/nihil_grass_bock_side",
+    "west": "nihil_outspread:block/nihil_grass_bock_side",
+    "particle": "nihil_outspread:block/void_dirt"
+  },
+  "render_type": "solid"
+}

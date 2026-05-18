@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "nihil_outspread:block/twig_flower"
+    },
+    "half=lower": {
+      "model": "nihil_outspread:block/twig_flower_bottom"
+    }
+  }
+}

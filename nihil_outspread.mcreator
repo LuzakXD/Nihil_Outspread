@@ -1,17 +1,180 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "NihilGrassBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nihil_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nihil_outspread/models/item/nihil_grass_block.json",
+          "src/main/resources/data/nihil_outspread/loot_table/blocks/nihil_grass_block.json",
+          "src/main/resources/assets/nihil_outspread/models/block/nihil_grass_block.json",
+          "src/main/java/net/luzak/wtn/block/NihilGrassBlockBlock.java",
+          "src/main/resources/assets/nihil_outspread/blockstates/nihil_grass_block.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidDirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nihil_outspread/loot_table/blocks/void_dirt.json",
+          "src/main/resources/assets/nihil_outspread/models/block/void_dirt.json",
+          "src/main/java/net/luzak/wtn/block/VoidDirtBlock.java",
+          "src/main/resources/assets/nihil_outspread/blockstates/void_dirt.json",
+          "src/main/resources/assets/nihil_outspread/models/item/void_dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nihil_outspread/models/item/void_stone.json",
+          "src/main/resources/data/nihil_outspread/loot_table/blocks/void_stone.json",
+          "src/main/java/net/luzak/wtn/block/VoidStoneBlock.java",
+          "src/main/resources/assets/nihil_outspread/models/block/void_stone.json",
+          "src/main/resources/assets/nihil_outspread/blockstates/void_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidPebbles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_pebbles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nihil_outspread/models/block/void_pebbles.json",
+          "src/main/java/net/luzak/wtn/block/VoidPebblesBlock.java",
+          "src/main/resources/assets/nihil_outspread/models/item/void_pebbles.json",
+          "src/main/resources/data/nihil_outspread/loot_table/blocks/void_pebbles.json",
+          "src/main/resources/assets/nihil_outspread/blockstates/void_pebbles.json"
+        ]
+      }
+    },
+    {
+      "name": "NihilHerb",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nihil_herb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nihil_outspread/models/block/nihil_herb.json",
+          "src/main/java/net/luzak/wtn/block/NihilHerbBlock.java",
+          "src/main/resources/assets/nihil_outspread/models/item/nihil_herb.json",
+          "src/main/resources/data/nihil_outspread/loot_table/blocks/nihil_herb.json",
+          "src/main/resources/assets/nihil_outspread/blockstates/nihil_herb.json"
+        ]
+      }
+    },
+    {
+      "name": "NihilFern",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nihil_fern",
+      "metadata": {
+        "files": [
+          "src/main/java/net/luzak/wtn/block/NihilFernBlock.java",
+          "src/main/resources/assets/nihil_outspread/models/block/nihil_fern.json",
+          "src/main/resources/data/nihil_outspread/loot_table/blocks/nihil_fern.json",
+          "src/main/resources/assets/nihil_outspread/models/item/nihil_fern.json",
+          "src/main/resources/assets/nihil_outspread/blockstates/nihil_fern.json"
+        ]
+      }
+    },
+    {
+      "name": "NihilBush",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nihil_bush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/luzak/wtn/block/NihilBushBlock.java",
+          "src/main/resources/data/nihil_outspread/loot_table/blocks/nihil_bush.json",
+          "src/main/resources/assets/nihil_outspread/models/item/nihil_bush.json",
+          "src/main/resources/assets/nihil_outspread/models/block/nihil_bush.json",
+          "src/main/resources/assets/nihil_outspread/blockstates/nihil_bush.json"
+        ]
+      }
+    },
+    {
+      "name": "TwigFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twig_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nihil_outspread/models/block/twig_flower_bottom.json",
+          "src/main/resources/assets/nihil_outspread/models/block/twig_flower.json",
+          "src/main/resources/assets/nihil_outspread/blockstates/twig_flower.json",
+          "src/main/java/net/luzak/wtn/block/TwigFlowerBlock.java",
+          "src/main/resources/assets/nihil_outspread/models/item/twig_flower.json",
+          "src/main/resources/data/nihil_outspread/loot_table/blocks/twig_flower.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
-  "tag_elements": {},
+  "sound_elements": [
+    {
+      "name": "block.nihilgrass.footstep",
+      "files": [
+        "block.nihil.footstep1",
+        "block.nihil.footstep2",
+        "block.nihil.footstep3",
+        "block.nihil.footstep4",
+        "block.nihil.footstep5"
+      ],
+      "category": "block",
+      "subtitle": "Nihil Grass Footsteps"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:NihilBush",
+      "~CUSTOM:NihilFern",
+      "~CUSTOM:NihilHerb"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.nihil_outspread.nihil_grass_block": "Nihil Grass Block",
+      "block.nihil_outspread.void_dirt": "Void Dirt",
+      "block.nihil_outspread.void_stone": "Void Stone",
+      "block.nihil_outspread.void_pebbles": "Void Pebbles",
+      "block.nihil_outspread.nihil_herb": "Nihil Small Herb",
+      "block.nihil_outspread.nihil_fern": "Nihil Herb",
+      "block.nihil_outspread.nihil_bush": "Nihil Short Grass",
+      "block.nihil_outspread.twig_flower": "Twig Flower"
+    }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/luzak/wtn/init/NihilOutspreadModBlocks.java",
+      "src/main/java/net/luzak/wtn/init/NihilOutspreadModItems.java",
+      "src/main/resources/assets/nihil_outspread/sounds.json",
       "src/main/java/net/luzak/wtn/NihilOutspreadMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/luzak/wtn/init/NihilOutspreadModSounds.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/luzak/wtn/init/NihilOutspreadModTabs.java"
     ]
   },
   "foldersRoot": {

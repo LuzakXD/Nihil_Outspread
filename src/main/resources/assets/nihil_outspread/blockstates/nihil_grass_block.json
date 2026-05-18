@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nihil_outspread:block/nihil_grass_block"
+    },
+    "facing=east": {
+      "model": "nihil_outspread:block/nihil_grass_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nihil_outspread:block/nihil_grass_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nihil_outspread:block/nihil_grass_block",
+      "y": 270
+    }
+  }
+}

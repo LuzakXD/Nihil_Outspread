@@ -1,0 +1,27 @@
+{
+  "block.nihilgrass.footstep": {
+    "subtitle": "subtitles.block.nihilgrass.footstep",
+    "sounds": [
+      {
+        "name": "nihil_outspread:block.nihil.footstep1",
+        "stream": false
+      },
+      {
+        "name": "nihil_outspread:block.nihil.footstep2",
+        "stream": false
+      },
+      {
+        "name": "nihil_outspread:block.nihil.footstep3",
+        "stream": false
+      },
+      {
+        "name": "nihil_outspread:block.nihil.footstep4",
+        "stream": false
+      },
+      {
+        "name": "nihil_outspread:block.nihil.footstep5",
+        "stream": false
+      }
+    ]
+  }
+}
