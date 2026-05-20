@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "feature",
   "definition": {
-    "skipPlacement": false,
+    "skipPlacement": true,
     "generationStep": "SURFACE_STRUCTURES",
     "restrictionBiomes": [],
     "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_no_op\"></block></value></block></xml>"

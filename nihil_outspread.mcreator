@@ -168,52 +168,26 @@
       }
     },
     {
-      "name": "CheckerPatch",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "checker_patch",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/nihil_outspread/worldgen/configured_feature/checker_patch.json"
-        ]
-      }
-    },
-    {
-      "name": "CheckerGrassFeature",
+      "name": "NihilOutspreadFreatures",
       "type": "code",
       "compiles": true,
       "locked_code": true,
-      "registry_name": "checker_grass_feature",
+      "registry_name": "nihil_outspread_freatures",
       "metadata": {
         "files": [
-          "src/main/java/net/luzak/wtn/CheckerGrassFeature.java"
+          "src/main/java/net/luzak/wtn/NihilOutspreadFreatures.java"
         ]
       }
     },
     {
-      "name": "NihilOutspreadModFeatures",
-      "type": "code",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "nihil_outspread_mod_features",
-      "metadata": {
-        "files": [
-          "src/main/java/net/luzak/wtn/NihilOutspreadModFeatures.java"
-        ]
-      }
-    },
-    {
-      "name": "Checker",
+      "name": "CheckerBlob",
       "type": "feature",
       "compiles": true,
-      "locked_code": false,
-      "registry_name": "checker",
+      "locked_code": true,
+      "registry_name": "checker_blob",
       "metadata": {
         "files": [
-          "src/main/resources/data/nihil_outspread/worldgen/configured_feature/checker.json",
-          "src/main/resources/data/nihil_outspread/neoforge/biome_modifier/checker_biome_modifier.json",
-          "src/main/resources/data/nihil_outspread/worldgen/placed_feature/checker.json"
+          "src/main/resources/data/nihil_outspread/worldgen/configured_feature/checker_blob.json"
         ]
       }
     }
