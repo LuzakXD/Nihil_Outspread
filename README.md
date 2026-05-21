@@ -1,3 +1,3 @@
 This is my first mod, so I'm using MCreator to help me out as learn new things
 
-this mod is a take on what a void thened dimension would be, with a completely new way of progressing in the game
+that is the block-adittion branch, where I'll be adding all the block of the mod
